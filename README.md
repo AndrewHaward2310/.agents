@@ -1,4 +1,4 @@
-# 🌌 Antigravity Awesome Skills
+# 🌌 Antigravity Awesome Skills: The Ultimate Claude Code Skills Collection
 
 > **The Ultimate Collection of 60+ Agentic Skills for Claude Code (Antigravity)**
 
@@ -6,12 +6,12 @@
 [![Claude Code](https://img.shields.io/badge/AI-Claude%20Code-purple)](https://claude.ai)
 [![Agentic](https://img.shields.io/badge/Agentic-Framework-blue)](https://github.com/guanyang/antigravity-skills)
 
-**Antigravity Awesome Skills** is a curated, battle-tested collection of **62 high-performance skills** compatible with both **Antigravity** and **Claude Code**, including official skills from **Anthropic** and **Vercel Labs**.
+**Antigravity Awesome Skills** is the ultimate **Claude Code Skills** collection—a curated, battle-tested library of **69 high-performance skills** compatible with both **Antigravity** and **Claude Code**. This repository provides the essential **Claude Code skills** needed to transform your AI assistant into a full-stack digital agency, including official capabilities from **Anthropic** and **Vercel Labs**.
 
 ## 📍 Table of Contents
 
 - [Features & Categories](#features--categories)
-- [Full Skill Registry](#full-skill-registry-6262)
+- [Full Skill Registry](#full-skill-registry-6969)
 - [Installation](#installation)
 - [How to Contribute](#how-to-contribute)
 - [Credits & Sources](#credits--sources)
@@ -129,6 +129,7 @@ This collection would not be possible without the incredible work of the Claude 
 ### Official Sources
 
 - **[anthropics/skills](https://github.com/anthropics/skills)**: Official Anthropic skills repository - Document manipulation (DOCX, PDF, PPTX, XLSX), Brand Guidelines, Internal Communications.
+- **[anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks)**: Official notebooks and recipes for building with Claude.
 - **[vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)**: Vercel Labs official skills - React Best Practices, Web Design Guidelines.
 
 ### Community Contributors
@@ -140,6 +141,12 @@ This collection would not be possible without the incredible work of the Claude 
 - **[travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills)**: Loki Mode and Playwright integration.
 - **[zebbern/claude-code-guide](https://github.com/zebbern/claude-code-guide)**: Comprehensive Security suite.
 - **[alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)**: Senior Engineering and PM toolkit.
+- **[karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills)**: A massive list of verified skills for Claude Code.
+
+### Inspirations
+
+- **[f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)**: Inspiration for the Prompt Library.
+- **[leonardomso/33-js-concepts](https://github.com/leonardomso/33-js-concepts)**: Inspiration for JavaScript Mastery.
 
 ---
 
