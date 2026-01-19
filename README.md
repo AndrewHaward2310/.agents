@@ -1,6 +1,6 @@
-# 🌌 Antigravity Awesome Skills: 189+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+# 🌌 Antigravity Awesome Skills: 155+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
-> **The Ultimate Collection of 189+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
+> **The Ultimate Collection of 155+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
@@ -11,7 +11,7 @@
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
 [![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/anthropics/antigravity)
 
-**Antigravity Awesome Skills** is a curated, battle-tested library of **189 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
+**Antigravity Awesome Skills** is a curated, battle-tested library of **155 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
@@ -27,7 +27,7 @@ This repository provides essential skills to transform your AI assistant into a 
 
 - [🔌 Compatibility](#-compatibility)
 - [Features & Categories](#features--categories)
-- [Full Skill Registry](#full-skill-registry-189189)
+- [Full Skill Registry](#full-skill-registry-155155)
 - [Installation](#installation)
 - [How to Contribute](#how-to-contribute)
 - [Credits & Sources](#credits--sources)
@@ -79,7 +79,7 @@ The repository is organized into several key areas of expertise:
 
 ---
 
-## Full Skill Registry (189/189)
+## Full Skill Registry (155/155)
 
 Below is the complete list of available skills. Each skill folder contains a `SKILL.md` that can be imported into Antigravity or Claude Code.
 

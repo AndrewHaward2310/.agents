@@ -7,6 +7,8 @@ def validate_skills(skills_dir):
     skill_count = 0
 
     for root, dirs, files in os.walk(skills_dir):
+        # Skip .disabled directories
+        dirs[:] = [d for d in dirs if d != '.disabled']
         if "SKILL.md" in files:
             skill_count += 1
             skill_path = os.path.join(root, "SKILL.md")

@@ -7,6 +7,8 @@ def generate_index(skills_dir, output_file):
     skills = []
 
     for root, dirs, files in os.walk(skills_dir):
+        # Skip .disabled directories
+        dirs[:] = [d for d in dirs if d != '.disabled']
         if "SKILL.md" in files:
             skill_path = os.path.join(root, "SKILL.md")
             dir_name = os.path.basename(root)
