@@ -18,13 +18,6 @@ Unlike SQL (where you model data entities), or document stores (like MongoDB), t
 - **Performance Tuning**: Troubleshooting "hot partitions" or high latency in existing NoSQL systems.
 - **Microservices**: Implementing "database-per-service" patterns where highly optimized reads are required.
 
-## Relation to Existing Skills
-
-While this repo contains product-specific skills (e.g., `firebase`, `upstash-qstash`), this **NoSQL Expert** skill focuses on the **universal architectural patterns** for high-scale distributed databases.
-
-- Use `firebase` or `upstash-qstash` for implementation details of those specific tools.
-- Use **this skill** fo **Data Modeling** and **System Design** (Partitioning, Sharding, Consistency) *before* you write code. This addresses the "SQL to NoSQL" mental shift.
-
 ## The Mental Shift: SQL vs. Distributed NoSQL
 
 | Feature | SQL (Relational) | Distributed NoSQL (Cassandra/DynamoDB) |
