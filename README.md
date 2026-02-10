@@ -1,13 +1,10 @@
-# Fincept Agent System: 207+ Agentic Skills for AI-Powered Development
+# .agents — 217+ Agentic Skills for AI Coding Assistants
 
-> **207+ Universal Agentic Skills organized into 15 categories -- including 12 specialized Fincept Terminal fintech agents and 3 production Rust/Go/Tauri backend skills.**
+> **A curated, production-ready collection of 217+ agentic skills organized into 15 categories. Drop into any project and start building.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Skills](https://img.shields.io/badge/Skills-207+-blue.svg)]()
+[![Skills](https://img.shields.io/badge/Skills-217+-blue.svg)]()
 [![Categories](https://img.shields.io/badge/Categories-15-green.svg)]()
-[![Fincept Agents](https://img.shields.io/badge/Fincept%20Agents-12-orange.svg)]()
-
-Built on top of [Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills), extended with a complete **Fincept Terminal agent system** for building a professional-grade financial analysis platform.
 
 Compatible with: **Claude Code** | **Gemini CLI** | **Codex CLI** | **Cursor** | **GitHub Copilot** | **OpenCode** | **Antigravity IDE**
 
@@ -19,209 +16,300 @@ Compatible with: **Claude Code** | **Gemini CLI** | **Codex CLI** | **Cursor** |
 # Clone into your project
 git clone https://github.com/AndrewHaward2310/.agents.git .agent/skills
 
-# Use any skill in your AI assistant
-@fincept-orchestrator build a new WebSocket adapter for OKX exchange
-@fincept-cto evaluate adding Go microservice for data aggregation
-@rust-systems-engineering design a lock-free order book
-@trading-systems review the matching engine algorithm
+# Use any skill
+@c-suite-orchestrator build a SaaS product from this idea
+@systematic-debugging fix the failing test suite
+@react-mastery refactor this component with proper patterns
+@launch-strategy plan the Product Hunt launch
 ```
 
 ---
 
-## Architecture Overview
+## What's Inside
+
+### The C-Suite Agent System
+
+A full executive team of AI agents that orchestrate real product builds from idea to launch:
 
 ```
-                          +------------------+
-                          |      USER        |
-                          +--------+---------+
-                                   |
-                    +--------------+--------------+
-                    |   @fincept-orchestrator     |  Master coordinator
-                    +--------------+--------------+
-                                   |
-              +--------+-----------+----------+---------+
-              |        |           |          |         |
-         +----+---+ +--+----+ +---+---+ +----+---+ +--+----+
-         |F-CEO   | |F-CTO  | |F-CFO  | |F-QA    | |F-Recon|
-         +--------+ +---+---+ +-------+ +--------+ +-------+
-                         |
-              +----------+-----------+----------+
-              |          |           |          |
-         +----+---+ +---+----+ +---+----+ +---+------+
-         |F-Exec  | |F-Debug | |Fintech | |Trading   |
-         +--------+ +--------+ |Domain  | |Systems   |
-                               +--------+ +----------+
-                    
-                    +-------------+  +----------------+
-                    |AI Quant Eng | |DSL Engineering  |
-                    +-------------+  +----------------+
+USER
+ └── @c-suite-orchestrator    Routes decisions, manages lifecycle
+      ├── @c-suite-ceo        Vision, strategy, GTM, kill/pivot
+      ├── @c-suite-cto        Architecture, stack, build-vs-buy
+      ├── @c-suite-cfo        Unit economics, pricing, runway
+      └── @c-suite-chro       Team design, processes, quality gates
+           └── Dispatches: planning / execution / debug / recon / testing agents
 ```
+
+### 15 Skill Categories
+
+| # | Category | Skills | What's in it |
+|---|----------|--------|---|
+| 1 | **[ai-agents/](#ai-agents-20)** | 20 | LLM agents, RAG, prompt engineering, CrewAI, LangGraph, MCP |
+| 2 | **[backend/](#backend-24)** | 24 | APIs, databases, Docker, cloud, Rust, Go, Tauri |
+| 3 | **[business/](#business-12)** | 12 | C-Suite agents, product strategy, pricing, app builder |
+| 4 | **[core/](#core-13)** | 13 | Agent config, behavioral modes, meta-skills, Loki Mode |
+| 5 | **[creative/](#creative-21)** | 21 | Design, art, games (9 sub-skills), UI/UX, D3.js |
+| 6 | **[dev-practices/](#dev-practices-26)** | 26 | TDD, debugging, code review, git, TypeScript, performance |
+| 7 | **[documents/](#documents-10)** | 10 | DOCX/PDF/PPTX/XLSX creation, templates |
+| 8 | **[dotnet/](#dotnet-3)** | 3 | Avalonia / Zafiro / .NET |
+| 9 | **[fincept/](#fincept-12)** | 12 | Fintech domain agents, trading systems, AI quant, DSL |
+| 10 | **[frontend/](#frontend-16)** | 16 | React, Next.js, Tailwind, Remotion, 3D web |
+| 11 | **[integrations/](#integrations-22)** | 22 | Stripe, Firebase, Discord, Slack, Twilio, Shopify |
+| 12 | **[marketing/](#marketing-21)** | 21 | SEO, CRO, ads, email, launch strategy, copywriting |
+| 13 | **[planning/](#planning-7)** | 7 | Plans, brainstorming, workflows, Kaizen |
+| 14 | **[security/](#security-5)** | 5 | Pentest, red team, OWASP, web app security |
+| 15 | **[system/](#system-5)** | 5 | Shell scripting, browser automation, PowerShell |
+
+> See **[SKILLS-MAP.md](skills/SKILLS-MAP.md)** for a complete quick-lookup reference with "I need to..." table.
 
 ---
 
-## 15 Categories (207+ Skills)
+## Category Details
 
-| # | Category | Skills | Description |
-|---|----------|--------|-------------|
-| 1 | **[fincept/](#fincept-agent-system-12-skills)** | **12** | Fintech terminal C-Suite agents, domain experts, operational agents |
-| 2 | **[ai-agents/](#ai-agents)** | 20 | LLM agents, RAG, prompt engineering, CrewAI, LangGraph, MCP |
-| 3 | **[backend/](#backend)** | 24 | APIs, databases, Docker, cloud, **Rust**, **Go**, **Tauri** |
-| 4 | **[business/](#business)** | 12 | Generic C-Suite agents, product strategy, pricing, app builder |
-| 5 | **[core/](#core)** | 13 | Agent config, behavioral modes, meta-skills, Loki Mode |
-| 6 | **[creative/](#creative)** | 11 | Design, art, games, UI/UX, D3 visualization |
-| 7 | **[dev-practices/](#dev-practices)** | 26 | Code quality, TDD, debugging, git, TypeScript, performance |
-| 8 | **[documents/](#documents)** | 10 | Office docs (DOCX/PDF/PPTX/XLSX), templates |
-| 9 | **[dotnet/](#dotnet)** | 3 | Avalonia/Zafiro/.NET patterns |
-| 10 | **[frontend/](#frontend)** | 16 | React, Next.js, Tailwind, Remotion, web performance |
-| 11 | **[integrations/](#integrations)** | 22 | Stripe, Firebase, Discord, Slack, Twilio, Shopify |
-| 12 | **[marketing/](#marketing)** | 21 | SEO, CRO, ads, email, launch strategy, copywriting |
-| 13 | **[planning/](#planning)** | 7 | Plans, brainstorming, workflows, Kaizen |
-| 14 | **[security/](#security)** | 5 | Penetration testing, red team, web app security |
-| 15 | **[system/](#system)** | 5 | Shell scripting, browser automation, PowerShell |
+### AI Agents (20)
 
----
-
-## Fincept Agent System (12 Skills)
-
-The `fincept/` category is a **purpose-built orchestrated agent team** for developing the [Fincept Terminal Desktop](https://github.com/anthropics) -- a professional financial analysis terminal built with **Tauri v2 (Rust)**, **React 19 (TypeScript)**, and **Python (AI/ML)**.
-
-### C-Suite Leadership
-
-| Skill | Role | Key Capabilities |
-|-------|------|-----------------|
-| **[@fincept-orchestrator](skills/fincept/fincept-orchestrator/)** | Master Coordinator | Routes to specialists, manages 6-phase product lifecycle, quality gates |
-| **[@fincept-ceo](skills/fincept/fincept-ceo/)** | Product Leader | Competitive positioning vs Bloomberg/TradingView, subscription tiers, GTM |
-| **[@fincept-cto](skills/fincept/fincept-cto/)** | Tech Architect | Rust/Go/Python/TS stack decisions, architecture patterns, code standards |
-| **[@fincept-cfo](skills/fincept/fincept-cfo/)** | Financial Leader | Fintech unit economics, data licensing costs, runway modeling |
-
-### Operational Agents
-
-| Skill | Role | Key Capabilities |
-|-------|------|-----------------|
-| **[@fincept-qa](skills/fincept/fincept-qa/)** | Quality Assurance | Multi-stack testing (Rust/TS/Python), financial accuracy validation, security |
-| **[@fincept-debug](skills/fincept/fincept-debug/)** | Debugger | Stack-specific debugging: Tauri IPC, WebSocket, SQLite, venv, FinScript |
-| **[@fincept-recon](skills/fincept/fincept-recon/)** | Scout | Competitive intelligence, technology evaluation, market research |
-| **[@fincept-execution](skills/fincept/fincept-execution/)** | Builder | TDD-first implementation across Rust, TypeScript, Python, FinScript |
-
-### Domain Specialists
-
-| Skill | Role | Key Capabilities |
-|-------|------|-----------------|
-| **[@fintech-domain](skills/fincept/fintech-domain/)** | Finance Expert | Asset classes, regulatory frameworks (SEC/SEBI/FCA), calculations, risk |
-| **[@trading-systems](skills/fincept/trading-systems/)** | Trading Architect | Order books, matching engines, market data, multi-broker, algo trading |
-| **[@ai-quant-engineering](skills/fincept/ai-quant-engineering/)** | AI/ML Engineer | Qlib, RD-Agent, RL trading, factor mining, multi-agent competition |
-| **[@dsl-engineering](skills/fincept/dsl-engineering/)** | Language Designer | FinScript DSL: lexer, parser, interpreter, 29 indicators, strategy engine |
-
-### Workflow Example
-
-```
-User: "Add WebSocket adapter for OKX exchange"
-
-@fincept-orchestrator → Classifies: Trading / Rust+TS / Medium
-  → @fincept-cto: Validates architecture (WebSocketAdapter trait)
-  → @trading-systems: Reviews OKX protocol, message normalization
-  → @fincept-execution: Implements adapter (Rust TDD)
-  → @fincept-qa: Tests connection, subscription, reconnection, security
-  → @fincept-cto: Final review → Merge
-```
-
----
-
-## Backend (24 Skills)
-
-Includes 3 new production-grade skills built for Fincept:
+Build, orchestrate, and evaluate AI agents and LLM applications.
 
 | Skill | Description |
 |-------|-------------|
-| **[@rust-systems-engineering](skills/backend/rust-systems-engineering/)** | Production Rust: async/tokio, concurrency, SQLite, AES-256-GCM, WebSocket, BTreeMap |
-| **[@go-backend-patterns](skills/backend/go-backend-patterns/)** | Go services: gRPC, worker pools, pgx, errgroup, OpenTelemetry, NATS/Kafka |
-| **[@tauri-development](skills/backend/tauri-development/)** | Tauri v2: commands, state, events, plugins, NSIS/MSI builds, auto-updater |
-| @api-patterns | REST vs GraphQL vs tRPC, versioning, pagination, security |
-| @database-design | Schema design, indexing, ORM, migrations, optimization |
-| @docker-expert | Multi-stage builds, optimization, orchestration |
-| @postgres-best-practices | 35 rules: indexing, RLS, locking, monitoring |
-| @nestjs-expert | NestJS modules, DI, middleware, guards |
-| @aws-serverless | Lambda, API Gateway, DynamoDB, SAM/CDK |
-| @prisma-expert | Prisma ORM schema, migrations, queries |
-| ... and 14 more | |
+| `@ai-agents-architect` | Design autonomous agents: tool use, memory, planning, multi-agent |
+| `@rag-engineer` | Embeddings, vector DB, retrieval strategies |
+| `@langgraph` | Stateful multi-actor AI applications |
+| `@mcp-builder` | Build MCP (Model Context Protocol) servers |
+| `@prompt-engineering` | Prompt optimization patterns & best practices |
+| `@subagent-driven-development` | Execute plans via fresh subagents + 2-stage review |
+| `@crewai` | Multi-agent framework (role-based) |
+| `@parallel-agents` | Multi-agent orchestration patterns |
+| `@voice-ai-development` | Real-time voice agents and voice-enabled apps |
+| ... and 11 more | Agent evaluation, memory, caching, research, etc. |
 
----
+### Backend (24)
 
-## AI Agents (20 Skills)
-
-| Skill | Description |
-|-------|-------------|
-| @ai-agents-architect | ReAct loops, Plan-Execute, tool registries, multi-agent orchestration |
-| @mcp-builder | Build MCP servers (Python/Node), evaluation framework |
-| @rag-engineer | Embeddings, vector DB, retrieval strategies |
-| @langgraph | Stateful multi-actor AI applications |
-| @prompt-engineering | Prompt optimization patterns |
-| @subagent-driven-development | Execute plans via fresh subagents with 2-stage review |
-| ... and 14 more | |
-
----
-
-## Business (12 Skills)
+APIs, databases, server infrastructure, and cloud services.
 
 | Skill | Description |
 |-------|-------------|
-| @c-suite-orchestrator | Generic product lifecycle coordinator (CEO/CTO/CFO/CHRO) |
-| @c-suite-ceo | Vision, strategy, GTM, MVP scoping |
-| @c-suite-cto | Stack selection, architecture, build-vs-buy |
-| @c-suite-cfo | Unit economics, pricing, budget, runway |
-| @c-suite-chro | Team design, hiring, processes, quality gates |
-| @app-builder | Full-stack app from natural language (14 templates) |
-| @pricing-strategy | Pricing models, packaging, monetization |
-| ... and 5 more | |
+| `@rust-systems-engineering` | Production Rust: async/tokio, concurrency, SQLite, AES-256-GCM |
+| `@go-backend-patterns` | Go services: gRPC, worker pools, pgx, OpenTelemetry |
+| `@tauri-development` | Tauri v2: commands, state, events, plugins, builds |
+| `@api-patterns` | REST vs GraphQL vs tRPC, versioning, pagination |
+| `@database-design` | Schema design, indexing, ORM, migrations |
+| `@docker-expert` | Multi-stage builds, optimization, orchestration |
+| `@postgres-best-practices` | 35 rules: indexing, RLS, locking, monitoring |
+| `@aws-serverless` | Lambda, API Gateway, DynamoDB, SAM/CDK |
+| `@prisma-expert` | Prisma ORM schema, migrations, queries |
+| ... and 15 more | NestJS, BullMQ, GraphQL, GCP, Azure, etc. |
 
----
+### Business (12)
 
-## Dev Practices (26 Skills)
+Product strategy and C-Suite agent system for building real products.
 
 | Skill | Description |
 |-------|-------------|
-| @test-driven-development | TDD methodology with "Iron Law" approach |
-| @systematic-debugging | Root-cause tracing, defense-in-depth |
-| @typescript-expert | TypeScript patterns, tsconfig, utility types |
-| @code-review-checklist | Thorough code review checklist |
-| @playwright-skill | Browser automation with Playwright |
-| @clean-code | Pragmatic coding standards |
-| @github-workflow-automation | PR reviews, issue triage, CI/CD |
-| ... and 19 more | |
+| `@c-suite-orchestrator` | Master coordinator: routes CEO/CTO/CFO/CHRO, full product lifecycle |
+| `@c-suite-ceo` | Vision, strategy, GTM, MVP scoping, kill/pivot decisions |
+| `@c-suite-cto` | Stack selection, architecture, build-vs-buy, tech estimates |
+| `@c-suite-cfo` | Unit economics, pricing, budget, runway, ROI |
+| `@c-suite-chro` | Team/agent design, hiring, processes, quality gates |
+| `@app-builder` | Full-stack app from natural language (14 templates) |
+| `@micro-saas-launcher` | Ship micro-SaaS in weeks: validation, MVP, pricing, launch |
+| `@pricing-strategy` | Pricing models, packaging, monetization |
+| `@product-manager-toolkit` | RICE prioritization, customer interviews, PRDs |
+| ... and 3 more | AI product patterns, competitor analysis, app builder |
+
+### Core (13)
+
+Agent configuration and meta-skills that control how the AI operates.
+
+| Skill | Description |
+|-------|-------------|
+| `@loki-mode` | Multi-agent autonomous startup system (100+ skills) |
+| `@behavioral-modes` | Switch modes: brainstorm, implement, debug, review, teach, ship |
+| `@skill-creator` | Create new skills |
+| `@context-window-management` | Manage LLM context: summarization, trimming, routing |
+| `@verification-before-completion` | Verify work before claiming it's done |
+| ... and 8 more | Claude Code guide, environment setup, superpowers, etc. |
+
+### Creative (21)
+
+Design, art, games, and visual experiences.
+
+| Skill | Description |
+|-------|-------------|
+| `@ui-ux-pro-max` | 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks |
+| `@game-development` | 9 sub-skills: 2D, 3D, mobile, PC, web, VR/AR, multiplayer, art, audio |
+| `@claude-d3js-skill` | Interactive data visualizations with D3.js |
+| `@algorithmic-art` | Generative art with p5.js |
+| `@canvas-design` | Visual art in PNG/PDF |
+| ... and 6 more | Mobile design, themes, brand guidelines, 3D web, etc. |
+
+### Dev Practices (26)
+
+Code quality, testing, debugging, and engineering best practices.
+
+| Skill | Description |
+|-------|-------------|
+| `@test-driven-development` | TDD: write tests before implementation |
+| `@systematic-debugging` | Root-cause debugging methodology |
+| `@typescript-expert` | TypeScript patterns, tsconfig, utility types |
+| `@code-review-checklist` | Thorough code review checklist |
+| `@clean-code` | Pragmatic coding standards |
+| `@playwright-skill` | Browser automation with Playwright |
+| `@production-code-audit` | Deep-scan entire codebase for issues |
+| `@github-workflow-automation` | PR reviews, issue triage, CI/CD |
+| ... and 18 more | Git, deployment, Python, JavaScript, performance, etc. |
+
+### Documents (10)
+
+Office document creation and template management.
+
+| Skill | Description |
+|-------|-------------|
+| `@docx-official` | Create/edit Word documents with full OOXML support |
+| `@xlsx-official` | Create/edit Excel spreadsheets with formulas |
+| `@pdf-official` | Create/edit/merge PDFs |
+| `@pptx-official` | Create/edit PowerPoint presentations |
+| ... and 6 more | Copy editing, documentation templates, NotebookLM, etc. |
+
+### Dotnet (3)
+
+.NET / Avalonia / Zafiro desktop application patterns.
+
+| Skill | Description |
+|-------|-------------|
+| `@avalonia-zafiro-development` | Avalonia UI conventions with Zafiro toolkit |
+| `@avalonia-layout-zafiro` | Layout patterns with shared styles |
+| `@avalonia-viewmodels-zafiro` | ViewModel & Wizard patterns (ReactiveUI) |
+
+### Fincept (12)
+
+Financial technology domain agents: trading systems, quantitative engineering, and fintech expertise.
+
+| Skill | Description |
+|-------|-------------|
+| `@fincept-orchestrator` | Fintech project coordinator |
+| `@fincept-ceo` | Fintech product strategy |
+| `@fincept-cto` | Fintech technical architecture (Rust/Go/Python/TS) |
+| `@fincept-cfo` | Fintech financial modeling |
+| `@trading-systems` | Order books, matching engines, market data |
+| `@ai-quant-engineering` | Qlib, RL trading, factor mining |
+| `@fintech-domain` | Asset classes, regulations, calculations |
+| `@dsl-engineering` | FinScript DSL design (lexer, parser, interpreter) |
+| ... and 4 more | QA, debugging, recon, execution agents |
+
+### Frontend (16)
+
+React, Next.js, web UI, and browser-side development.
+
+| Skill | Description |
+|-------|-------------|
+| `@react-mastery` | Complete React: hooks, state, performance, patterns |
+| `@nextjs-best-practices` | Next.js App Router, Server Components |
+| `@tailwind-patterns` | Tailwind CSS v4, container queries, design tokens |
+| `@web-performance-optimization` | Core Web Vitals, bundle optimization |
+| `@3d-web-experience` | Three.js, React Three Fiber, WebGL |
+| ... and 11 more | Remotion, scroll, i18n, Supabase auth, portfolios, etc. |
+
+### Integrations (22)
+
+Third-party service integrations and API connectors.
+
+| Skill | Description |
+|-------|-------------|
+| `@stripe-integration` | Payments, subscriptions, webhooks, Checkout |
+| `@firebase` | Auth, Firestore, Storage, Functions, Hosting |
+| `@discord-bot-architect` | Production Discord bots |
+| `@slack-bot-builder` | Slack Bolt apps (Python, JS, Java) |
+| `@telegram-bot-builder` | Telegram bots for automation & AI |
+| `@clerk-auth` | Clerk auth, middleware, organizations |
+| ... and 16 more | Twilio, Shopify, Algolia, HubSpot, Plaid, etc. |
+
+### Marketing (21)
+
+SEO, conversion optimization, growth, and launch strategies.
+
+| Skill | Description |
+|-------|-------------|
+| `@launch-strategy` | Product launch: ORB framework, 5-phase approach |
+| `@conversion-optimization` | CRO for pages, forms, popups, onboarding, paywalls |
+| `@seo-audit` | Diagnose & fix SEO issues |
+| `@copywriting` | Marketing copywriting |
+| `@email-sequence` | Drip campaigns, automated email flows |
+| `@paid-ads` | Google Ads, Meta, LinkedIn campaigns |
+| ... and 15 more | Content, social, referrals, analytics, ASO, etc. |
+
+### Planning (7)
+
+Strategic planning, brainstorming, and workflow management.
+
+| Skill | Description |
+|-------|-------------|
+| `@brainstorming` | Turn ideas into designs before coding |
+| `@writing-plans` | Write implementation plans before touching code |
+| `@executing-plans` | Execute plans with review checkpoints |
+| `@workflow-automation` | Durable execution for reliable agents |
+| `@kaizen` | Continuous improvement & error proofing |
+| `@planning-with-files` | File-based planning (task_plan.md, findings.md) |
+| `@file-organizer` | Organize files by context, find duplicates |
+
+### Security (5)
+
+Penetration testing and security assessment (consolidated with reference docs).
+
+| Skill | Description |
+|-------|-------------|
+| `@web-app-security` | OWASP Top 10, SQLi, XSS, auth bypass, Burp Suite |
+| `@pentest-methodology` | Ethical hacking methodology, checklists, commands |
+| `@privilege-escalation` | Linux, Windows, AD, cloud privilege escalation |
+| `@red-team-ops` | Red team tactics, Metasploit, scanning tools |
+| `@network-security` | Network scanning, Wireshark, SMTP, SSH, Shodan |
+
+### System (5)
+
+Operating system tools, shell scripting, and browser automation.
+
+| Skill | Description |
+|-------|-------------|
+| `@browser-automation` | Playwright/Puppeteer for testing & scraping |
+| `@browser-extension-builder` | Chrome/Firefox extensions (Manifest V3) |
+| `@linux-shell-scripting` | Bash scripts, Linux automation |
+| `@powershell-windows` | PowerShell patterns, operators, error handling |
+| `@busybox-on-windows` | Unix commands on Windows via BusyBox |
 
 ---
 
-## Other Categories
+## Common Workflows
 
-### Core (13 Skills)
-Agent config, behavioral modes (brainstorm/implement/debug/review/teach/ship), Loki Mode (autonomous startup system), context window management, skill creation.
+### Build a Product (Idea to Launch)
 
-### Creative (11 Skills)
-UI/UX Pro Max (50 styles, 97 palettes), D3.js visualization, algorithmic art, game development (9 sub-skills), canvas design, mobile design.
+```
+@c-suite-orchestrator  → Full C-Suite activation
+  ├→ @c-suite-ceo      → Vision, MVP scope
+  ├→ @c-suite-cto      → Stack, architecture
+  ├→ @c-suite-cfo      → Pricing, budget
+  ├→ @writing-plans     → Implementation plan
+  ├→ @subagent-driven-development → Agent execution
+  └→ @launch-strategy   → Ship it
+```
 
-### Documents (10 Skills)
-DOCX/PDF/PPTX/XLSX creation with full OOXML schema support, NotebookLM integration, Obsidian templates.
+### Build a Feature
 
-### Frontend (16 Skills)
-React mastery, Next.js, Tailwind v4, Remotion video, 3D web (Three.js), web performance optimization, scroll experiences.
+```
+@brainstorming → @writing-plans → @test-driven-development → @code-review-checklist → @git-pushing
+```
 
-### Integrations (22 Skills)
-Stripe, Firebase, Discord bots, Slack bots, Telegram bots, Shopify, Twilio, Clerk auth, Plaid fintech, HubSpot CRM.
+### Debug & Fix
 
-### Marketing (21 Skills)
-SEO audit, CRO, copywriting, email sequences, paid ads, launch strategy, referral programs, analytics tracking.
+```
+@systematic-debugging → @test-fixing → @test-driven-development
+```
 
-### Planning (7 Skills)
-Brainstorming, writing plans, executing plans, file organization, Kaizen, workflow automation.
+### Launch Marketing
 
-### Security (5 Skills)
-Web app security (OWASP), penetration testing, privilege escalation, red team ops, network security.
-
-### System (5 Skills)
-Linux shell scripting, PowerShell, browser automation, browser extension builder, BusyBox on Windows.
-
-### .NET (3 Skills)
-Avalonia UI with Zafiro: layout, ViewModels, development conventions.
+```
+@launch-strategy → @copywriting → @seo-fundamentals → @email-sequence → @conversion-optimization
+```
 
 ---
 
@@ -236,6 +324,39 @@ Avalonia UI with Zafiro: layout, ViewModels, development conventions.
 | **Cursor** | IDE | Full | `.cursor/skills/` or project root |
 | **GitHub Copilot** | Extension | Partial | `.github/copilot/` |
 | **OpenCode** | CLI | Full | `.opencode/skills/` or `.agent/skills/` |
+
+---
+
+## Repository Structure
+
+```
+.agents/
+├── README.md                This file
+├── GETTING_STARTED.md       5-minute beginner guide
+├── CONTRIBUTING.md          How to add skills
+├── FAQ.md                   Common questions
+├── CHANGELOG.md             Version history
+├── LICENSE                  MIT License
+├── docs/                    Skill anatomy, visual guide, examples
+├── scripts/                 Validation, index generation
+└── skills/
+    ├── SKILLS-MAP.md        Quick-lookup reference for all 217 skills
+    ├── ai-agents/      (20)
+    ├── backend/         (24)
+    ├── business/        (12)
+    ├── core/            (13)
+    ├── creative/        (21)
+    ├── dev-practices/   (26)
+    ├── documents/       (10)
+    ├── dotnet/           (3)
+    ├── fincept/         (12)
+    ├── frontend/        (16)
+    ├── integrations/    (22)
+    ├── marketing/       (21)
+    ├── planning/         (7)
+    ├── security/         (5)
+    └── system/           (5)
+```
 
 ---
 
@@ -257,41 +378,7 @@ description: "What this skill does. Use when: trigger keywords."
 ...
 ```
 
-Invoked via `@skill-name` in any compatible AI assistant.
-
----
-
-## Repository Structure
-
-```
-D:\.agent\skills\
-  README.md              This file
-  GETTING_STARTED.md     5-minute beginner guide
-  CONTRIBUTING.md        How to add skills
-  FAQ.md                 Common questions
-  CHANGELOG.md           Version history
-  LICENSE                MIT License
-  skills_index.json      Machine-readable skill index
-  docs/                  Skill anatomy, visual guide, examples
-  scripts/               Validation, index generation, README sync
-  skills/
-    ai-agents/           20 skills
-    backend/             24 skills (includes rust, go, tauri)
-    business/            12 skills (includes generic c-suite)
-    core/                13 skills
-    creative/            11 skills (+9 game sub-skills)
-    dev-practices/       26 skills
-    documents/           10 skills
-    dotnet/               3 skills
-    fincept/             12 skills (Fincept Terminal agent system)
-    frontend/            16 skills
-    integrations/        22 skills
-    marketing/           21 skills
-    planning/             7 skills
-    security/             5 skills
-    system/               5 skills
-    SKILLS-MAP.md        Quick-lookup reference across all categories
-```
+Invoke with `@skill-name` in any compatible AI assistant.
 
 ---
 
@@ -301,25 +388,24 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide. Quick version:
 
 1. Create `skills/<category>/<your-skill>/SKILL.md` with YAML frontmatter
 2. Run `python scripts/validate_skills.py` to verify
-3. Run `python scripts/generate_index.py` to update the index
-4. Submit a PR
+3. Submit a PR
 
 ---
 
 ## Credits & Sources
 
 ### Foundation
-- **[Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills)** - Original 253+ skill collection
+- **[Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills)** — Original 253+ skill collection
 
 ### Official Sources
-- **Anthropic** (Claude Code team): Document processing skills (DOCX, PDF, PPTX, XLSX), brand guidelines, internal comms
-- **Supabase**: PostgreSQL best practices (35 rules)
-- **Vercel Labs**: Remotion best practices (28 rules)
+- **Anthropic** (Claude Code team): Document processing skills, brand guidelines
+- **Supabase**: PostgreSQL best practices
+- **Vercel Labs**: Remotion best practices
 - **DatAI Studio**: Avalonia/Zafiro patterns
 
-### Community Contributors
-- [sickn33](https://github.com/sickn33) - Original repository creator
-- [AndrewHaward2310](https://github.com/AndrewHaward2310) - Fincept agent system, category reorganization
+### Contributors
+- [sickn33](https://github.com/sickn33) — Original repository creator
+- [AndrewHaward2310](https://github.com/AndrewHaward2310) — Category reorganization, C-Suite agents, domain extensions
 - All [original contributors](https://github.com/sickn33/antigravity-awesome-skills/graphs/contributors)
 
 ---
@@ -327,7 +413,3 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide. Quick version:
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-**Keywords**: Claude Code, Gemini CLI, Codex CLI, Cursor, GitHub Copilot, OpenCode, Agentic Skills, Fintech, Rust, Go, Tauri, Trading Systems, AI Agents, Financial Terminal, Bloomberg Alternative, TradingView Alternative
